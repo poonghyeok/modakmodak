@@ -11,9 +11,15 @@
 		
 	<context:component-scan base-package="spring.conf" />
 	
+	<!-- user -->
 	<context:component-scan base-package="com.modak.user.bean" />
 	<context:component-scan base-package="com.modak.user.dao" />
 	<context:component-scan base-package="com.modak.user.service" />
 
+	<!-- board -->
+	<context:component-scan base-package="com.modak.board.bean" />
+	<context:component-scan base-package="com.modak.board.dao" />
+	<context:component-scan base-package="com.modak.board.service" />
+	
 </beans>
  

@@ -1,6 +1,6 @@
 package com.modak.user.dao;
 
-public interface UserDao {
+public interface UserDAO {
 
 	public int count();
 

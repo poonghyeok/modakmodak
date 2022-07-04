@@ -67,18 +67,3 @@ public class SpringConfiguration {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

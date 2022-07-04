@@ -10,7 +10,7 @@ import com.modak.user.service.UserService;
 
 @Controller
 @RequestMapping("/login")
-public class UserLoginController {
+public class UserController {
 	@Autowired
 	UserService userService;
 	

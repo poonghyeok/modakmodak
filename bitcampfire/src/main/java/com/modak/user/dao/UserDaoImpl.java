@@ -7,11 +7,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Repository
 @Transactional
-public class UserDaoImpl implements UserDao {
+public class UserDAOImpl implements UserDAO {
 	@Autowired
 	private SqlSession session;
-	private final String namespace = "userSQL.";
 	
+	private final String namespace = "userSQL.";
 	
 	@Override
 	public int count(){

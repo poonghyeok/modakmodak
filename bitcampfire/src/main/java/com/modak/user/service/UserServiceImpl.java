@@ -3,16 +3,16 @@ package com.modak.user.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.modak.user.dao.UserDao;
+import com.modak.user.dao.UserDAO;
 
 @Service
 public class UserServiceImpl implements UserService {
 	@Autowired
-	UserDao userDao;
+	UserDAO userDAO;
 	
 	@Override
 	public int getCount() {
 		System.out.print("userServiceImpl...test..getCount..");
-		return userDao.count();
+		return userDAO.count();
 	}
 }

@@ -26,7 +26,8 @@
 	
 	<!-- User 컨트롤러 -->
 	<context:component-scan base-package="com.modak.user.controller" />
-	
-	
+
+	<!-- board 컨트롤러 -->
+	<context:component-scan base-package="com.modak.board.controller" />
 	
 </beans:beans>
